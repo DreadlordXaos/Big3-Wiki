@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to bottom, #fff0eb, #ffe4dc);
+    color: #333;
+}
+
+header {
+    background: linear-gradient(135deg, #8b0000, #ff3c00);
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    letter-spacing: 1px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+header p {
+    margin-top: 10px;
+    font-size: 16px;
+    opacity: 0.9;
+}
+
+nav {  
+    background-color: #b22222;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 18px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #ffd6cc;
+}
+
+main {
+    padding: 40px 60px;
+}
+
+section {
+    background: white;
+    padding: 25px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(139, 0, 0, 0.15);
+    transition: 0.3s;
+}
+
+section:hover {
+    transform: translateY(-4px);
+}
+
+h2 {
+    color: #8b0000;
+    margin-top: 0;
+}
+
+img {
+    margin-top: 15px;
+    max-width: 250px;
+    border-radius: 8px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th {
+    background-color: #ff3c00;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+    background-color: #fff0eb;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 12px;
+}
+
+input[type="submit"] {
+    background-color: #8b0000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #ff3c00;
+}
+
+
+footer {
+    background-color: #8b0000;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    margin-top: 40px;
+}
